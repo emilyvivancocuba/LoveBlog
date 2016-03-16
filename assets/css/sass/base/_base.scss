@@ -1,1 +1,18 @@
-_base.scss
+@font-face {
+ font-family: "Helvetica";
+ src: url("../font/HelveticaNeue.eot");
+ src: url("../font/HelveticaNeue.ttf");
+ src: url("../font/HelveticaNeue.woff");
+}
+@font-face {
+ font-family: "bebas";
+ src: url("../font/bebas___-webfont.eot");
+ src: url("../font/bebas___-webfont.svg");
+ src: url("../font/bebas___-webfont.ttf");
+ src: url("../font/bebas___-webfont.woff");
+}
+blockquote{
+	font-family: "bebas";
+	text-transform: uppercase;
+	font-size: 200px;
+}
