@@ -1,0 +1,45 @@
+.header {
+    margin: 0px auto;
+}
+.header_area{
+	width: 960px;
+	margin: 0px auto;
+}
+.logo{
+	margin-left: 10px;
+	h1{
+		color: $naranja;
+		font-size: 36px;
+		margin-top: 40px;
+		margin-bottom: 30px;
+		font-family: 'bebas';
+	}
+	span{
+		color: $coral;
+	}
+}
+.mainmenu{
+	margin-top: 35px;
+	margin-right: 0px;
+	ul{
+		list-style: none;
+		li{
+			float: left;
+			a{
+				display: block;
+			    padding: 10px 10px 10px 25px;
+			    text-transform: uppercase;
+			    color: #BCBCBC;
+			    font-size: 16px;
+			    font-family: 'bebas';
+			}
+		}
+	}
+}
+#nav{
+	display: block;
+}
+.header_bottom_area {
+    background: $coral2;
+    min-height: 50px;
+}

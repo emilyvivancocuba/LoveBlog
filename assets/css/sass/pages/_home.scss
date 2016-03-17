@@ -1,0 +1,51 @@
+@mixin imgback($url){
+	background-image: $url;
+	background-repeat: no-repeat;
+	background-position: left;
+	padding-left: 60px;
+}
+.service_area{
+	margin-top: 25px;
+}
+.single_service{
+	width: 300px;
+	margin-left: 20px;
+	&_container {
+		margin-left: -20px;
+	}
+	h2{
+		font-family: 'bebas';
+		color: $naranja;
+		font-size: 18px;
+	}
+	p{
+		font-family: Sans-Serif;
+		line-height: 1.6;
+	}
+	a{
+		background-color: $naranja;
+		background-repeat: repeat;
+		color: $white;
+		display: block;
+		font-family: 'bebas';
+		font-size: 13px;
+		padding: 10px 20px;
+		margin-top: 20px;
+		width: 70px;
+	}
+}
+.portfolio{
+	h2{
+		@include imgback(url(../images/portfolio.png));
+	}
+}
+.offer{
+	h2{
+		@include imgback(url(../images/offer.png));
+	}
+}
+.follow{
+	h2{
+		@include imgback(url(../images/follow.png));
+	}
+}
