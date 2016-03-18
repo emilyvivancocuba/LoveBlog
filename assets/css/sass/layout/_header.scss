@@ -1,45 +1,50 @@
-.header {
-    margin: 0px auto;
+header{
+	font-family: 'bebas';
 }
 .header_area{
-	width: 960px;
-	margin: 0px auto;
-}
-.logo{
-	margin-left: 10px;
-	h1{
-		color: $naranja;
-		font-size: 36px;
-		margin-top: 40px;
-		margin-bottom: 30px;
-		font-family: 'bebas';
-	}
-	span{
-		color: $coral;
-	}
-}
-.mainmenu{
-	margin-top: 35px;
-	margin-right: 0px;
-	ul{
-		list-style: none;
-		li{
-			float: left;
-			a{
-				display: block;
-			    padding: 10px 10px 10px 25px;
-			    text-transform: uppercase;
-			    color: #BCBCBC;
-			    font-size: 16px;
-			    font-family: 'bebas';
+	.navbar-default{
+		background-color: $white;
+		border: none;
+		padding-top: 20px;
+		padding-bottom: 20px;
+		.navbar-nav{
+			li{
+				margin-top: 5px;
+				a{
+					color: $plomo;
+					font-size: 16px;
+					&:hover, &:focus{
+						color: $coral;
+					}
+				}
+				&.active{
+					a{
+						color: $naranja;
+						background-color: transparent;
+						
+					}
+				}
 			}
 		}
 	}
 }
-#nav{
-	display: block;
+.navbar-brand{
+	h1{
+		margin-left: 14px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+		color: $naranja;
+		span{
+			color: $coral;
+		}
+	}
 }
-.header_bottom_area {
-    background: $coral2;
-    min-height: 50px;
+.header_bottom_area{
+	background-color: $coral2;
+	width: 100%;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	position: relative;
+	margin-top: 95px;
+	z-index: -1;
 }
