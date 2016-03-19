@@ -1,8 +1,8 @@
 @mixin imgback($url){
 	background-image: $url;
 	background-repeat: no-repeat;
-	background-position: left;
-	padding-left: 60px;
+	background-position: left top;
+	background-size: 50px;
 }
 .slider_area{
 	margin-top: -50px;
@@ -11,21 +11,31 @@
 		@extend .border-white;
 	}
 }
-
-
-
+.structure{
+	padding-top: 20px;
+	h4{
+		font-size: 20px;
+		padding-bottom: 14px;
+		padding-left: 62px;
+		line-height: 1.4;
+	}
+	p{
+		font-family: Sans-Serif;
+		line-height: 1.42;
+	}
+}
 .portfolio{
-	h2{
+	h4{
 		@include imgback(url(../images/portfolio.png));
 	}
 }
 .offer{
-	h2{
+	h4{
 		@include imgback(url(../images/offer.png));
 	}
 }
 .follow{
-	h2{
+	h4{
 		@include imgback(url(../images/follow.png));
 	}
 }

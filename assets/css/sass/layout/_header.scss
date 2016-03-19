@@ -8,20 +8,23 @@ header{
 		padding-top: 20px;
 		padding-bottom: 20px;
 		.navbar-nav{
+			&.navbar-right{
+				padding-right: 14px;
+			}
 			li{
 				margin-top: 5px;
 				a{
 					color: $plomo;
 					font-size: 16px;
 					&:hover, &:focus{
-						color: $coral;
+						color: $white;
+						background-color: #FFE2DA;
 					}
 				}
 				&.active{
 					a{
 						color: $naranja;
 						background-color: transparent;
-						
 					}
 				}
 			}

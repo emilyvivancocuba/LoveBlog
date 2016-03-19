@@ -5813,6 +5813,19 @@ button.close {
   border-left: 14px solid #fff;
   border-right: 14px solid #fff; }
 
+.orangebutton {
+  color: #fff;
+  font-family: 'bebas';
+  background-color: #E8603C;
+  padding: 8px 18px;
+  display: inline-block;
+  margin: 14px 0px;
+  border: 2px solid #E8603C; }
+  .orangebutton:hover, .orangebutton:focus {
+    color: #E8603C;
+    background-color: #fff;
+    text-decoration: none; }
+
 @font-face {
   font-family: "Helvetica";
   src: url("../font/HelveticaNeue.eot");
@@ -5828,6 +5841,19 @@ button.close {
   margin: 0px;
   padding: 0px; }
 
+a {
+  text-decoration: none;
+  -webkit-transition: .2s;
+  transition: .2s; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'bebas';
+  color: #E8603C; }
+
+section {
+  padding-left: 14px;
+  padding-right: 14px; }
+
 header {
   font-family: 'bebas'; }
 
@@ -5836,13 +5862,16 @@ header {
   border: none;
   padding-top: 20px;
   padding-bottom: 20px; }
+  .header_area .navbar-default .navbar-nav.navbar-right {
+    padding-right: 14px; }
   .header_area .navbar-default .navbar-nav li {
     margin-top: 5px; }
     .header_area .navbar-default .navbar-nav li a {
       color: #BCBCBC;
       font-size: 16px; }
       .header_area .navbar-default .navbar-nav li a:hover, .header_area .navbar-default .navbar-nav li a:focus {
-        color: #F3AF9D; }
+        color: #fff;
+        background-color: #FFE2DA; }
     .header_area .navbar-default .navbar-nav li.active a {
       color: #E8603C;
       background-color: transparent; }
@@ -5869,22 +5898,33 @@ header {
   .slider_area img {
     width: 100%; }
 
-.portfolio h2 {
+.structure {
+  padding-top: 20px; }
+  .structure h4 {
+    font-size: 20px;
+    padding-bottom: 14px;
+    padding-left: 62px;
+    line-height: 1.4; }
+  .structure p {
+    font-family: Sans-Serif;
+    line-height: 1.42; }
+
+.portfolio h4 {
   background-image: url(../images/portfolio.png);
   background-repeat: no-repeat;
-  background-position: left;
-  padding-left: 60px; }
+  background-position: left top;
+  background-size: 50px; }
 
-.offer h2 {
+.offer h4 {
   background-image: url(../images/offer.png);
   background-repeat: no-repeat;
-  background-position: left;
-  padding-left: 60px; }
+  background-position: left top;
+  background-size: 50px; }
 
-.follow h2 {
+.follow h4 {
   background-image: url(../images/follow.png);
   background-repeat: no-repeat;
-  background-position: left;
-  padding-left: 60px; }
+  background-position: left top;
+  background-size: 50px; }
 
 /*# sourceMappingURL=main.css.map */
