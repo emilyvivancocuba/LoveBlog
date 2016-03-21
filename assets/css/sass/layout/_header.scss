@@ -17,7 +17,7 @@ header{
 					color: $plomo;
 					font-size: 16px;
 					&:hover, &:focus{
-						color: $white;
+						@extend .font-white;
 						background-color: #FFE2DA;
 					}
 				}
@@ -43,11 +43,19 @@ header{
 	}
 }
 .header_bottom_area{
-	background-color: $coral2;
-	width: 100%;
+	@extend .bg-coral;
 	padding-top: 25px;
 	padding-bottom: 25px;
 	position: relative;
 	margin-top: 95px;
 	z-index: -1;
+}
+.header_areabaja{
+	@extend .bg-coral;
+	margin-top: 95px;
+	h2{
+		@extend .font-white;
+		margin: 0px;
+		padding: 14px 0px 21px 21px;
+	}
 }

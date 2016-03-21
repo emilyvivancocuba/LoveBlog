@@ -1,0 +1,29 @@
+.body-about-us{
+	padding-top: 40px;
+	p{
+		font-size: 15px;
+	}
+}
+.author-info{
+	padding-top: 7px;
+	p{
+		margin-bottom: 30px;
+	}
+	.img-borde{
+		width: 33.33333%;
+		margin-right: 14px;
+		margin-bottom: 40px;
+		@include border($gray-border);
+		img{
+			@extend .w-100;
+			border: 4px solid $white;
+		}
+	}
+	.orangetext{
+		color: $naranja;
+		border-left: 10px solid $naranja;
+		padding-left: 14px;
+		margin-left: 28px;
+		margin-top: 35px;
+	}
+}

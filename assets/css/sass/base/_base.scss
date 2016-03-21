@@ -25,6 +25,44 @@ h1, h2, h3, h4, h5, h6{
 	color: $naranja;
 }
 section{
-	padding-left: 14px;
-	padding-right: 14px;
+	padding: 20px 14px;
+}
+.dash{
+	background-image: url(../images/heading-bg.png);
+	background-repeat: repeat-x;
+	background-position: right;
+	background-size: auto;
+	margin-bottom: 28px;
+	span{
+		background-color: $white;
+		padding: 0px 35px 14px 0px;
+	}
+	&.only{
+		margin-top: 20px;
+		margin-bottom: 50px;
+		height: 20px;
+	}
+}
+.post{
+	&:hover{
+		text-decoration: none;
+		div{
+			background-color: #FFE2DA;
+			-webkit-transition: .4s;
+    		transition: .4s;
+		}
+	}
+	img{
+		@extend .w-100;
+		border-bottom: 7px solid $white;
+	}
+	div{
+		@include border-left($gray-border);
+		@include border-right($gray-border);
+		@include border-bottom($gray-border);
+		padding: 20px 25px 15px 25px;
+		h4{
+			color: #989898;
+		}
+	}
 }

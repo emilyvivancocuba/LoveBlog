@@ -1,0 +1,30 @@
+aside{
+	p{
+		margin-bottom: 35px;
+	}
+	.dash.lessmg{
+		margin-bottom: 21px;
+	}
+	ul{
+		list-style-type: none;
+		li{
+			padding-bottom: 5px;
+			a{
+				text-decoration: none;
+				color: #000;
+				&:hover{
+					color: $naranja;
+				}
+			}
+			&:last-child{
+				padding-bottom: 21px;
+			}
+		}	
+	}	
+	.orangebox{
+		background-color: #F2AF9E;
+		@include border(#BC6F5D);
+		width: 100%;
+		height: 60px;
+	}
+}

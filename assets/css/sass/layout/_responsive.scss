@@ -1,0 +1,41 @@
+@media (max-width: 768px){
+	.sec-footer {
+	    padding: 0px 28px;
+	    p{
+			padding-bottom: 14px;
+		}
+	}
+	.pr-40{
+		padding-right: 15px;
+	}
+	.pag-portfolio{
+		li{
+			margin-bottom: 20px;
+		}
+	}
+	.paginacion{
+		li{
+			margin-bottom: 30px;
+		}
+	}
+}
+@media (max-width: 991px){
+	.body-portfolio{
+		a{
+			&.post-portfolio{
+				div{
+					margin-bottom: 20px;
+				}
+			}
+		}
+	}
+	.from-blog{
+		a{
+			&.post{
+				div{
+					margin-bottom: 25px;
+				}
+			}
+		}
+	}
+}

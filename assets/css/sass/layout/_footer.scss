@@ -1,0 +1,39 @@
+footer{
+	margin-top: 40px;
+	@extend .bg-coral;
+}
+.sec-footer{
+	padding: 14px;
+	@extend .font-white;
+	h2{
+		@extend .font-white;
+		padding-bottom: 14px;
+		text-transform: uppercase;
+	}
+	a{
+		@extend .font-white;
+		text-decoration: none;
+		&:hover, &:focus{
+			color: $coral;
+		}
+	}
+	p{
+		padding-bottom: 30px;
+		a{
+			color: $white;
+			text-decoration: none;
+			&:hover, &:focus{
+				color: $coral;
+			}
+		}
+	}
+	ul{
+		margin-top: 14px;
+		a{
+			img{
+				margin-right: 7px;
+				box-shadow: -2px -2px 2px solid gray;
+			}
+		}
+	}
+}

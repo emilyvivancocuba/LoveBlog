@@ -1,0 +1,53 @@
+.body-contact{
+	margin-top: 40px;
+	p{
+		font-family: Sans-Serif;
+	}
+	.sidebar{
+		p{
+			margin-top: 16px;
+			font-size: 15px;
+			line-height: 1.4;
+		}
+		h5{
+			font-family: Sans-Serif;
+			margin-top: 15px;
+		}
+		a{
+			display: block;
+			color: #000;
+			text-decoration: none;
+			&:hover{
+				color: $naranja;
+			}
+		}
+	}
+	form{
+		margin-top: 16px;
+		font-family: 'bebas';
+		font-weight: 300;
+		input, textarea{
+			display: block;
+			margin-bottom: 20px;
+			padding: 14px 14px 14px 7px;
+			border: 1px solid $naranja;
+			outline: none;
+		}
+		input{
+			width: 70%;
+		}
+		textarea{
+			width: 100%;
+		}
+	}
+	.submit{
+		@extend .orangebutton;
+		display: block;
+		font-size: 24px;
+		-webkit-transition: .4s;
+    	transition: .4s;
+	}
+}
+::-webkit-input-placeholder{
+	color: $naranja;
+}
